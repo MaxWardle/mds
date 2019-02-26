@@ -21,6 +21,8 @@ class Const{
                         TSF_NAME    = "TestTSF" ,
                         IDIR_USERNAME = dotenv['IDIR_USERNAME'] ? dotenv['IDIR_USERNAME'] : systemEnv['IDIR_USERNAME'],
                         IDIR_PASSWORD = dotenv['IDIR_PASSWORD'] ? dotenv['IDIR_PASSWORD'] : systemEnv['IDIR_PASSWORD'],
+                        BCEID_USERNAME = dotenv['BCEID_USERNAME'] ? dotenv['BCEID_USERNAME'] : systemEnv['BCEID_USERNAME'],
+                        BCEID_PASSWORD = dotenv['BCEID_PASSWORD'] ? dotenv['BCEID_PASSWORD'] : systemEnv['BCEID_PASSWORD'],
                         DB_HOST = dotenv['DB_HOST'] ? dotenv['DB_HOST'] : systemEnv['DB_HOST'],
                         DB_NAME = dotenv['DB_NAME'] ? dotenv['DB_NAME'] : systemEnv['DB_NAME'],
                         DB_USER = dotenv['DB_USER'] ? dotenv['DB_USER'] : systemEnv['DB_USER'],
